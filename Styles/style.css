@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+}
+
+
+[class*="col-"] {
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #788f58;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+.aside {
+    text-align: left;
+}
+
+
+
+/*MOJ KOD
+
+.vert_line{
+    width: 1px;
+    height: 880px;
+    background-color: #999999;
+    margin: auto;
+}
+
+.line1{
+    position: absolute;
+    width: 40px;
+    height: 1px;
+    background-color: #999999;
+    top: 204px;
+    left:933px;
+}
+
+.line2{
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background-color: #999999;
+    top: 348px;
+    left:933px;
+}
+
+.line3{
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background-color: #999999;
+    top: 390px;
+    left:933px;
+}
+
+.line4{
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background-color: #999999;
+    top: 554px;
+    left:933px;
+}
+
+.line5{
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background-color: #999999;
+    top: 613px;
+    left:933px;
+}
+
+.line6{
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background-color: #999999;
+    top: 879px;
+    left:933px;
+}
+
+.dot1{
+    position: absolute;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: #788f58;
+    top: 200px;
+    left:946px;
+}
+
+.dot2{
+    position: absolute;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: #788f58;
+    top: 344px;
+    left:946px;
+}
+
+.dot3{
+    position: absolute;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: #788f58;
+    top: 386px;
+    left:946px;
+}
+
+.dot4{
+    position: absolute;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: #788f58;
+    top: 550px;
+    left:946px;
+}
+
+.dot5{
+    position: absolute;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: #788f58;
+    top: 609px;
+    left:946px;
+}
+
+.dot6{
+    position: absolute;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: #788f58;
+    top: 875px;
+    left:946px;
+}
+*/
+
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ a:link {
+    color: black;
+    text-decoration:none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    text-decoration:underline;
+}
+
+a:active {
+    color: rgb(255, 105, 138);
+}
+
+/* For Chrome or Safari */
+progress::-webkit-progress-bar {
+    background-color: #eeeeee;
+}
+
+progress::-webkit-progress-value {
+    background-color: #788f58 !important;
+}
+
+
+/* For Firefox */
+progress {
+    background-color: #eee;
+}
+
+progress::-moz-progress-bar {
+    background-color: #788f58 !important;
+}
+
+/* For IE10 */
+progress {
+    background-color: #eee;
+}
+
+progress {
+    background-color: #788f58 !important;
+}
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 35%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
