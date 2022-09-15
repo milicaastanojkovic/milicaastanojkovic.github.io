@@ -28,135 +28,9 @@ html {
 }
 
 
-.aside {
+.right {
     text-align: left;
 }
-
-
-
-/*MOJ KOD
-
-.vert_line{
-    width: 1px;
-    height: 880px;
-    background-color: #999999;
-    margin: auto;
-}
-
-.line1{
-    position: absolute;
-    width: 40px;
-    height: 1px;
-    background-color: #999999;
-    top: 204px;
-    left:933px;
-}
-
-.line2{
-    position: absolute;
-    width: 20px;
-    height: 1px;
-    background-color: #999999;
-    top: 348px;
-    left:933px;
-}
-
-.line3{
-    position: absolute;
-    width: 20px;
-    height: 1px;
-    background-color: #999999;
-    top: 390px;
-    left:933px;
-}
-
-.line4{
-    position: absolute;
-    width: 20px;
-    height: 1px;
-    background-color: #999999;
-    top: 554px;
-    left:933px;
-}
-
-.line5{
-    position: absolute;
-    width: 20px;
-    height: 1px;
-    background-color: #999999;
-    top: 613px;
-    left:933px;
-}
-
-.line6{
-    position: absolute;
-    width: 20px;
-    height: 1px;
-    background-color: #999999;
-    top: 879px;
-    left:933px;
-}
-
-.dot1{
-    position: absolute;
-    width:10px;
-    height:10px;
-    border-radius: 50%;
-    background-color: #788f58;
-    top: 200px;
-    left:946px;
-}
-
-.dot2{
-    position: absolute;
-    width:10px;
-    height:10px;
-    border-radius: 50%;
-    background-color: #788f58;
-    top: 344px;
-    left:946px;
-}
-
-.dot3{
-    position: absolute;
-    width:10px;
-    height:10px;
-    border-radius: 50%;
-    background-color: #788f58;
-    top: 386px;
-    left:946px;
-}
-
-.dot4{
-    position: absolute;
-    width:10px;
-    height:10px;
-    border-radius: 50%;
-    background-color: #788f58;
-    top: 550px;
-    left:946px;
-}
-
-.dot5{
-    position: absolute;
-    width:10px;
-    height:10px;
-    border-radius: 50%;
-    background-color: #788f58;
-    top: 609px;
-    left:946px;
-}
-
-.dot6{
-    position: absolute;
-    width:10px;
-    height:10px;
-    border-radius: 50%;
-    background-color: #788f58;
-    top: 875px;
-    left:946px;
-}
-*/
 
 p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -229,7 +103,17 @@ progress {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  [class*="col-"] {
+  .wrapper {
     width: 100%;
+    flex-direction: column;
   }
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
+
